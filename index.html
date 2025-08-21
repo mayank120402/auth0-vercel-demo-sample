@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Auth0 SPA on Vercel</title>
+  <!-- Auth0 SPA SDK (must be before app.js) -->
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/2.3/auth0-spa-js.production.js"></script>
+</head>
+<body>
+  <h1>Auth0 Login Demo</h1>
+  <button id="login">Log In</button>
+  <button id="logout" style="display:none;">Log Out</button>
+  <h2>Profile</h2>
+  <pre id="profile">Not logged in</pre>
+  <div id="admin" style="display:none;">
+    <h2>Admin Panel</h2>
+    <p>Secret admin content here</p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
